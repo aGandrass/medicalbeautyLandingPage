@@ -28,7 +28,8 @@ class LeadsController extends Controller
         $track = Trackings::create([
           'trackingIP'      => $trackingIP,
           'trackingBrowser' => $trackingBrowser,
-          'trackingReferer' => $trackingReferer
+          'trackingReferer' => $trackingReferer,
+          'trackingCount'   => 1
         ]);
         return view('lp');
       } else {
