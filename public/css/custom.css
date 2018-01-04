@@ -1,0 +1,90 @@
+/* BACKGROUNDS */
+body {
+  background: url(../images/medicalbg.jpg) center top no-repeat rgba(255,255,255,1);
+}
+
+/* CONTENT */
+h1 {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: #383838;
+  text-align: center;
+  margin-top: 0px;
+}
+
+p {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #636363;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+p.formAlert {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p.formSecurity {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* FORM */
+section {
+  display: block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.form-control {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+.btn-primary {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  background-color: #8c8c8c;
+  border-color: #8c8c8c;
+}
+.btn-primary:hover {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  background-color: #b03d19;
+  border-color: #b03d19;
+}
+.alert .alert-success {
+  max-height: 50px;
+}
+
+/* PARSLEY VALIDATION */
+ul.parsley-errors-list.filled {
+  list-style: none;
+  margin: 0 0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #8a2432;
+}
+li.parsely-required {
+  list-style: none;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #616164;
+}
